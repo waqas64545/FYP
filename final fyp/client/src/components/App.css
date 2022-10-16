@@ -1,0 +1,379 @@
+.signup-container{
+    background-image: url('../image4.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    opacity: 0.9;
+}
+
+.signin-container{
+    background-image: url('../signin.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.9;
+}
+
+
+
+
+
+  /* .......Buyer css */
+  .wrapping{
+    float: left;
+    width: 33.33%;
+    padding: 0px;
+height: 61vh;
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 10px;
+margin-top: 110px;
+ background-color: black; 
+
+}
+
+
+
+.carding{
+
+width: 400px;
+background-color: #001334;
+color: #fff;
+
+}
+
+.abouts{
+
+padding: 10px;
+color: #fff;
+}
+
+.abouts small{
+
+font-size: 10px;
+}
+
+hr{
+
+color: #fff;
+margin-top: 0px;
+}
+
+
+.steam{
+margin-top: -5px;
+}
+
+
+
+.seller{
+    margin-top: -6px;
+    font-size: 14px;
+}
+
+
+.steam-price{
+
+    margin-right: 115px !important;
+}
+
+.margin{
+    margin-top: -6px;
+  color: #6c757d !important;
+  font-size: 13px;
+}
+
+.response div{
+
+margin-right: 10px;
+}
+
+.fa-check-circle{
+color: #1775e5;
+}
+
+
+.fa-thumbs-up{
+    color: #79d254;
+}
+
+
+
+.fa-thumbs-down{
+  color: #e05a59;
+}
+
+
+.cart{
+height: 50px;
+}
+
+.d-flex flex-column ml-2{
+  float: right;
+}
+
+  /* .......Seller css */
+
+
+ .using-cards .blocking-card {
+    text-align: center;
+}
+.backgrund-seller{
+    background-image: url("paper.jpeg");
+ background-color: #cccccc;
+}
+.card .card-block {
+    padding: 25px;
+}
+
+.using-cards .blocking-card .image {
+    position: relative;
+    margin: 0 auto;
+    display: inline-block;
+    padding: 5px;
+    width: 110px;
+    height: 110px;
+}
+
+.using-cards .blocking-card .image img {
+    z-index: 20;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    width: 100px;
+    height: 100px;
+}
+
+.bg-c-blue {
+    background: linear-gradient(45deg,#708090,#c8d1db);
+}
+ input {
+    position: absolute;
+    font-size: 50px;
+    /* opacity: 0; */
+    right: 0;
+    top: 0;
+  }  
+
+
+
+  /* .......home css */
+
+  * {
+    margin: 0;
+    padding: 0
+}
+
+
+
+.name1 {
+    padding:  5px;
+    font-size: 16px;
+    color: #050505 !important;
+    font-weight: 1000
+    
+}
+
+.text1 {
+    font-size: 23px;
+    font-weight: bold;
+    color: white;
+}
+
+ .imagename2 {
+    font-size: 14px;
+    font-weight: bold
+}
+
+.form-select{
+    background-color: royalblue;
+    color: white;
+    font-size: 11px;
+} 
+
+.one{
+    float: left;
+}
+  
+  .alert.success {background-color: rgb(211, 211, 211)}
+  .alert.info {background-color: #adbcc9;}
+
+
+
+  .form-select{
+    width: 17vh;
+    margin-left: 0;
+    font-weight: bold;
+    color: black;
+    background-color: rgb(211, 211, 211)
+    
+
+  }
+
+
+  .btnSubmit{
+     background-color: rgb(240, 84, 84)
+  }
+  .background-home{
+    background-image: url("https://wallpapercave.com/wp/KX9Ir5p.jpg");
+ background-color: #cccccc;
+  }
+  .color{
+    background-color: rgb(211, 211, 211)
+  }
+
+
+  /* //Sellercss */
+  body{
+    margin-bottom:20px;
+    color: #1a202c;
+    text-align: left;
+    background-color: #e2e8f0;    
+}
+.main-body {
+    padding: 15px;
+}
+.card {
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,.1), 0 1px 2px 0 rgba(0,0,0,.06);
+}
+.myprofilecard
+{
+    width:100%;
+}
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 0 solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+}
+
+.card-body {
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 1rem;
+}
+
+.gutters-sm {
+    margin-right: -8px;
+    margin-left: -8px;
+}
+
+.gutters-sm>.col, .gutters-sm>[class*=col-] {
+    padding-right: 8px;
+    padding-left: 8px;
+}
+.mb-3, .my-3 {
+    margin-bottom: 1rem!important;
+}
+
+.bg-gray-300 {
+    background-color: #e2e8f0;
+}
+.h-100 {
+    height: 100%!important;
+}
+.shadow-none {
+    box-shadow: none!important;
+}
+.btnprofileedit
+{
+    color:white;
+    
+}
+.cprofilepic
+{
+    width:250px;
+    height:250px;
+}
+.serviceCard {
+    padding: 40px 30px 35px 40px;
+    border: 1px solid #f6f6f6;
+    border-radius: 5px;
+    box-shadow: 0 16px 32px 0 rgba(7, 28, 31, 0.1);
+    background-color: white;
+}
+.resumeheading
+{
+    
+    justify-content: center;
+}
+.pageheight
+{
+    width:500%;
+}
+
+.pdf-container
+{
+    width:100vw;
+    height:100vh;
+    overflow-y: auto;
+    background-color: #e4e4e4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mydocumentviewer
+{
+    justify-content: center;
+    margin-left: 280px;
+    margin-top: 50px;
+  
+    
+}
+
+
+
+
+@media only screen and (max-width: 720px) {
+
+    .mydocumentviewer
+    {
+      
+        
+        margin-top: 50px;
+        margin-left: 0px;
+        margin-right: 0px;
+        padding:2% 5%;
+        
+    }
+}
+.app-sidebar {
+    display: grid;
+  grid-area: app-sidebar-area;
+  grid-template-areas: 
+    "app-logo-area"
+    "app-sidenav-area";
+  grid-template-rows: 1rem 1fr;
+  /* grid-template-columns: 16rem 1fr; */
+
+  font-weight: bold;
+  background-color: var(--color-dark2);
+  color: var(--color-white1);
+
+  padding-bottom: 3rem;
+}
+.row{
+    padding-left: 7pc;
+}
+.breadcrumb{
+    padding-left: 7pc;
+}
+.back{
+    background-color: #bedfb7;
+}
+.back-buyer{
+    background-color:rgb(247, 240, 240);
+}
+    
+
+.Piechart{
+    padding-left: 22pc ;
+    /* padding-bottom: 40pc; */
+}
