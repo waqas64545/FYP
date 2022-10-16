@@ -4,6 +4,7 @@ import './products.css'
 import { useState, useEffect } from "react";
 import { MDBFooter, MDBContainer, MDBRow, MDBCol, MDBIcon, MDBBtn } from 'mdb-react-ui-kit';
 
+
 const BuyerDashboard = () => {
 
   const [data, setData] = useState([]);
@@ -59,6 +60,7 @@ const BuyerDashboard = () => {
   return (
 
     <>
+    
       <div className="back-buyer">
         {isData === true && <>
           {/* <h3 className='text-center my-3'>Posts</h3> */}

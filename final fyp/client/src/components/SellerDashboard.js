@@ -512,7 +512,7 @@ const SellerDashboard = () => {
 
         </div>
         {isData === true && <>
-        <h3 className='text-center my-3'>Products</h3>
+        <h3 className='text-center my-2'>Products</h3>
 
         <div className="container bg-trasparent my-4 p-3">
           <div className="row row-cols-1 row-cols-xs-2 row-cols-sm-2 row-cols-lg-4 g-3">
@@ -532,17 +532,20 @@ const SellerDashboard = () => {
                         </span>
 
                       </div>
-                      <span className="float-start badge rounded-pill bg-info">
-                      <i class="fa fa-user mx-1"></i> {item.sellerData[0].username}
-                      </span>
-                      <br></br>
                       <h5 className="card-title">
                      {item.Postdata.description}
                       </h5>
-                      <div className="text-center my-4 flex align-items-end  flex-column">
+                      <span className="float-start badge rounded-pill bg-info">
+                      <i class="fa fa-user mx-1"></i> {item.sellerData[0].username}
+                      </span>
+                  <br></br>    
+                    
+                      <div className="text-center my-4 ">
                         
-                        <a href="#" className="btn btn-warning">Chat Box</a><br/><br/>
-                        <a className='col my-2'><Link to={"/editproduct/"+item.Postdata._id} className='btn btn-secondary' >Edit</Link></a><br/><br/>
+                        <a href="#" className="btn btn-warning">Chat Box</a>
+                        <br/><br/>
+                        <a className='col my-2'><Link to={"/editproduct/"+item.Postdata._id} className='btn btn-secondary' >Edit</Link></a>
+                        <br/><br/>
                         <a className='col my-2'><a  className='btn btn-danger btn-small' onClick={() =>deletePost (item.Postdata._id)}>Delete</a></a>
                       </div>
                     </div>
