@@ -67,7 +67,7 @@ const AdminDashboard = () => {
 
                             <nav aria-label="breadcrumb">
                                 <ol className="breadcrumb">
-                                    <li className="breadcrumb-item"><a href="#">Home</a></li>
+                                    <li className="breadcrumb-item"><a href="/">Home</a></li>
                                     <li className="breadcrumb-item"><a href="#">Library</a></li>
                                     <li className="breadcrumb-item active" aria-current="page">Data</li>
                                 </ol>
@@ -97,7 +97,7 @@ const AdminDashboard = () => {
                                     <div className="card text-white bg-danger h-100">
                                         <div className="card-body bg-danger">
                                             <div className="rotate">
-                                                <i className="fa fa-list fa-4x"></i>
+                                                <i className="fa fa-user fa-4x"></i>
                                             </div>
                                             <h6 className="text-uppercase">Buyer</h6>
                                             <h1 className="display-4">{buyersCount}</h1>
@@ -108,7 +108,7 @@ const AdminDashboard = () => {
                                     <div className="card text-white bg-info h-100">
                                         <div className="card-body bg-info">
                                             <div className="rotate">
-                                                <i className="fab fa-twitter fa-4x"></i>
+                                                <i className="fas fa-tablet-alt fa-4x"></i>
                                             </div>
                                             <h6 className="text-uppercase">Post</h6>
                                             <h1 className="display-4">{postsCount}</h1>
