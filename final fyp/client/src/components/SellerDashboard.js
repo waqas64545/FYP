@@ -532,14 +532,15 @@ const SellerDashboard = () => {
                         </span>
 
                       </div>
-                      <h5 className="card-title">
-                     {item.Postdata.description}
-                      </h5>
+                      
                       <span className="float-start badge rounded-pill bg-info">
                       <i class="fa fa-user mx-1"></i> {item.sellerData[0].username}
                       </span>
+                      
                   <br></br>    
-                    
+                  <h5 className="card-title">
+                     {item.Postdata.description}
+                      </h5>
                       <div className="text-center my-4 ">
                         
                         <a href="#" className="btn btn-warning">Chat Box</a>
