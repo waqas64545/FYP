@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-
+import Home2 from './Home2';
 import './App.css';
 import { dataDigitalBestSeller } from './data';
 import imgGirl from '../assests/images/Banner1.jpg';
@@ -76,7 +76,11 @@ function App() {
           </div>
         ))}
       </Slider>
+      <br></br>
+      <div><Home2/></div>
     </div>
+   
+    
   );
 }
 
