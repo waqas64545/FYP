@@ -396,7 +396,7 @@ body {
     margin: 0 -10px;
   }
   
-  .card {
+  /* .card {
     border: 1px solid #fff;
     background: black;
     border-radius: 8px;
@@ -405,7 +405,7 @@ body {
     height: 400px;
     color: #fff;
     cursor: pointer;
-  }
+  } */
   
   .card-top h1 {
     font-size: 0.9rem;

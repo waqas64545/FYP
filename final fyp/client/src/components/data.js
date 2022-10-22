@@ -5,7 +5,7 @@ export const dataDigitalBestSeller = [
     price: '$59.99',
     category: 'Nintendo Switch',
     linkImg:
-      'https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_auto/c_scale,w_300/v1/ncom/en_US/games/switch/m/mario-kart-8-deluxe-switch/hero?_a=AJADJWI0',
+      'https://cdn.pixabay.com/photo/2015/09/09/22/05/cooler-933691__340.jpg',
   },
   {
     id: 2,
@@ -13,7 +13,7 @@ export const dataDigitalBestSeller = [
     price: '$59.99',
     category: 'Nintendo Switch',
     linkImg:
-      'https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_auto/c_scale,w_300/v1/ncom/en_US/games/switch/t/triangle-strategy-switch/hero?_a=AJADJWI0',
+      'https://cdn.pixabay.com/photo/2016/02/24/08/41/motherboard-1219352__340.jpg',
   },
   {
     id: 3,
@@ -21,7 +21,7 @@ export const dataDigitalBestSeller = [
     price: '$59.99',
     category: 'Nintendo Switch',
     linkImg:
-      'https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_auto/c_scale,w_300/v1/ncom/en_US/games/switch/p/pokemon-legends-arceus-switch/hero?_a=AJADJWI0',
+      'https://cdn.pixabay.com/photo/2020/03/12/07/27/microchips-4924170__340.jpg',
   },
   {
     id: 4,
@@ -29,7 +29,7 @@ export const dataDigitalBestSeller = [
     price: '$59.99',
     category: 'Nintendo Switch',
     linkImg:
-      'https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_auto/c_scale,w_300/v1/ncom/en_US/games/switch/s/super-mario-3d-world-plus-bowsers-fury-switch/hero?_a=AJADJWI0',
+      'https://cdn.pixabay.com/photo/2015/04/04/19/47/tube-706979__340.png',
   },
   {
     id: 5,
@@ -37,7 +37,7 @@ export const dataDigitalBestSeller = [
     price: '$19.99',
     category: 'Nintendo Switch',
     linkImg:
-      'https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_auto/c_scale,w_300/v1/ncom/en_US/games/switch/c/cuphead-switch/hero?_a=AJADJWI0',
+      'https://cdn.pixabay.com/photo/2014/09/20/13/53/hdd-453775__340.jpg',
   },
   {
     id: 6,
@@ -45,7 +45,7 @@ export const dataDigitalBestSeller = [
     price: '$29.99',
     category: 'Nintendo Switch',
     linkImg:
-      'https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_auto/c_scale,w_300/v1/ncom/en_US/games/switch/m/minecraft-switch/hero?_a=AJADJWI0',
+      'https://cdn.pixabay.com/photo/2016/08/06/15/09/computer-1574533__340.jpg',
   },
   {
     id: 7,
@@ -53,7 +53,7 @@ export const dataDigitalBestSeller = [
     price: '$59.99',
     category: 'Nintendo Switch',
     linkImg:
-      'https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_auto/c_scale,w_300/v1/ncom/en_US/games/switch/m/mario-plus-rabbids-kingdom-battle-switch/hero?_a=AJADJWI0',
+      'https://cdn.pixabay.com/photo/2015/09/09/22/05/cooler-933691__340.jpg',
   },
   {
     id: 8,
@@ -62,6 +62,6 @@ export const dataDigitalBestSeller = [
     category: 'Nintendo Switch',
     sale: 63, //percent
     linkImg:
-      'https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_auto/c_scale,w_300/v1/ncom/en_US/games/switch/u/unravel-two-switch/hero?_a=AJADJWI0',
+      'https://media.istockphoto.com/photos/businessman-using-a-computer-analysis-for-process-and-workflow-with-picture-id1360521207',
   },
 ]
