@@ -76,7 +76,7 @@ class  Home2 extends React.Component {
                 </h2>
                 <p>Custom building - Buy/sell</p>
 
-                <a href="" className="btn">
+                <a href="/signup" className="btn">
                   Explore now &#8594;
                 </a>
               </div>
