@@ -77,9 +77,9 @@ const Signin=()=>{
 
            setFormData({...formData,loading:true});
             signin(data)
-
             .then(response =>{
-                console.log(response);
+                console.log('Response : ',response);
+                
                 setAuthentication(response.data.token, response.data.user);   //store
 
                 if(isAuthenticated() &&  isAuthenticated().role===1){      //read
@@ -99,7 +99,11 @@ const Signin=()=>{
 
             })
             .catch(err=>{
-                console.log('signin api function error:', err);
+                console.log('signin api function error:', err.response.data.errorMessage);
+                setFormData({...formData,loading:false});
+                setFormData({
+                    ...formData, errorMsg: err.response.data.errorMessage
+                })
             })
              
         }
