@@ -28,6 +28,12 @@ app.get("/getUserImage/:path", (req, res) => {
     return res.sendFile(fileLocation, { root: __dirname })
   })
 
+  app.get("/getAdminPostImage/:path", (req, res) => {
+    let file = req.params.path;
+    const fileLocation = "./images/adminPostImages/" + file;
+    return res.sendFile(fileLocation, { root: __dirname })
+  })
+
 
 
 connectDB();

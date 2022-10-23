@@ -14,7 +14,7 @@ import EditProduct from './EditProduct';
 import DeleteSeller from './DeleteSeller';
 import DeleteBuyers from './DeleteBuyers';
 import DeletePosts from './DeletePost';
-
+import PostsByAdmin from './PostsByAdmin';
 
 const App = () => (
      
@@ -36,6 +36,7 @@ const App = () => (
                <Route exact path='/admin/deleteSeller' element={<DeleteSeller/>}/>
                <Route exact path='/admin/deleteBuyer' element={<DeleteBuyers/>}/>
                <Route exact path='/admin/deletePost' element={<DeletePosts/>}/>
+               <Route exact path='/admin/addAdminPost' element={<PostsByAdmin/>}/>
                <Route element={<NotFound />} />
 
           </Routes>

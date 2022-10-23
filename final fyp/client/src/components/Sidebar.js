@@ -9,7 +9,7 @@ const Sidebar = () => {
                 <li class="nav-item mb-2"><a class="nav-link text-secondary" href="/admin/deleteSeller"><i class="fas fa-user font-weight-bold"></i> <span className="ml-3">Sellers List</span></a></li>
                 <li class="nav-item mb-2"><a class="nav-link text-secondary" href="/admin/deleteBuyer"><i class="fas fa-user font-weight-bold"></i><span className="ml-3">Buyers List</span></a></li>
                 <li class="nav-item mb-2"><a class="nav-link text-secondary" href="/admin/deletePost"><i class="fas fa-tablet-alt font-weight-bold"></i><span className="ml-3">Posts List</span></a></li>
-                <li class="nav-item mb-2"><a class="nav-link text-secondary" href="#"><i class="fas fa-atom font-weight-bold"></i> <span className="ml-3">Flex</span></a></li>
+                <li class="nav-item mb-2"><a class="nav-link text-secondary" href="/admin/addAdminPost?"><i class="fas fa-atom font-weight-bold"></i> <span className="ml-3">Add Post By Admin</span></a></li>
                 <li class="nav-item mb-2"><a class="nav-link text-secondary" href="#"><i class="far fa-folder font-weight-bold"></i> <span className="ml-3">Layouts</span></a></li>
                 <li class="nav-item mb-2"><a class="nav-link text-secondary" href="#">Templates</a></li>
                 <li class="nav-item mb-2"><a class="nav-link text-secondary" href="#">Themes</a></li>

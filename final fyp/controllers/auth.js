@@ -8,6 +8,7 @@ const e = require('express');
 const Post = require('../models/Post');
 const fs = require('fs');
 const prod = require('../config/prod');
+const AdminPost = require('../models/AdminPosts');
 exports.signupController = async (req, res) => {
   // console.log(req.body);
 
@@ -386,7 +387,7 @@ sellerPosts = async (email) => {
       return res.status(404).json({ err: "Seller posts not found" });
     }
     else {
-      
+
       for (let i = 0; i < postsData.length; i++) {
         deletePostByAdmin(postsData[i]._id.toJSON());
       }
@@ -420,48 +421,74 @@ deletePostByAdmin = async (id) => {
   }
 }
 
-deleteSellerInfo=(image)=>{
-  const pathToFile = './images/userImages/' +image;
-    if (fs.existsSync(pathToFile)) {
+deleteSellerInfo = (image) => {
+  const pathToFile = './images/userImages/' + image;
+  if (fs.existsSync(pathToFile)) {
 
-      fs.unlink(pathToFile, (err) => {
-        if (err) {
-          console.log(err);
-        }
-        console.log('Image deleted');
-      })
-    }
-    else {
-      console.log("File Does not exist");
-    }
+    fs.unlink(pathToFile, (err) => {
+      if (err) {
+        console.log(err);
+      }
+      console.log('Image deleted');
+    })
+  }
+  else {
+    console.log("File Does not exist");
+  }
 }
 
-exports.getAllSeller=async(req,res)=>{
+exports.getAllSeller = async (req, res) => {
 
-  try
-  {
-    const sellers=await User.find({role:0});
-    return res.status(201).json({message:sellers});
+  try {
+    const sellers = await User.find({ role: 0 });
+    return res.status(201).json({ message: sellers });
   }
-  catch(err)
-  {
-    return res.status(422).json({error:err});
+  catch (err) {
+    return res.status(422).json({ error: err });
   }
 
 }
 
-exports.getAllBuyers=async(req,res)=>{
+exports.getAllBuyers = async (req, res) => {
 
-  try
-  {
-    const buyers=await User.find({role:1});
-    return res.status(201).json({message:buyers});
+  try {
+    const buyers = await User.find({ role: 1 });
+    return res.status(201).json({ message: buyers });
   }
-  catch(err)
-  {
-    return res.status(422).json({error:err});
+  catch (err) {
+    return res.status(422).json({ error: err });
   }
 
+}
+
+exports.addPostsByAdmin =async(req, res) => {
+  try {
+    const { description } = req.body;
+    const image = req.files.imageUrl;
+    const image_URL = image.name;
+    const newPost = new AdminPost();
+    newPost.imageUrl = image_URL;
+    newPost.description = description;
+    newPost.save();
+    let newpath = path.join(process.cwd(), './images/adminPostImages', image_URL)
+    req.files.imageUrl.mv(newpath);
+    return res.status(200).json({ message: "Post added successfully by admin" });
+  }
+  catch (err) {
+    console.log('error : ', err);
+    return res.status(422).json({ error: err });
+  }
+}
+exports.getPostsByAdmin =async(req, res) => {
+  try {
+    const adminPosts=await AdminPost.find({});
+
+    return res.status(200).json({ message: adminPosts });
+  }
+  catch (err) {
+    console.log('error : ', err);
+    return res.status(422).json({ error: err });
+  }
 }
 
 

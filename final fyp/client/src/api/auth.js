@@ -152,3 +152,27 @@ export const deleteBuyersData = async(email)=>{
     const response = await axios.delete('/api/auth/deletebuyer/'+email,config);
     return response;
 }
+
+export const addPostByAdmin = async(data)=>{
+    const config={
+        headers:{
+            "Content-Type": "application/json"
+        }
+    }
+    
+    const response = await axios.post('/api/auth/addadminpost',data,config);
+   
+    return response;
+}
+
+export const getPostByAdmin = async(data)=>{
+    const config={
+        headers:{
+            "Content-Type": "application/json"
+        }
+    }
+    
+    const response = await axios.get('/api/auth/getadminpost',config);
+   
+    return response;
+}

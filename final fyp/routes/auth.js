@@ -4,7 +4,8 @@ const router = express.Router();
 const {signupValidator,signinValidator, validationResult} = require('../middleware/validator');
 const {signupController,signinController,
     getUserInfo,EditUserInfo,addUserImage,addPost,getAllPost,deletePost,
-    getProductDetail,updateProductDetail,getUsersCount,deleteBuyers,deleteSeller,getAllSeller,getAllBuyers} = require('../controllers/auth');
+    getProductDetail,updateProductDetail,getUsersCount,deleteBuyers,
+    deleteSeller,getAllSeller,getAllBuyers,addPostsByAdmin,getPostsByAdmin} = require('../controllers/auth');
 
 router.post('/signup', signupValidator, validationResult, signupController);
 router.post('/signin', signinValidator, validationResult, signinController);
@@ -21,6 +22,8 @@ router.delete('/deletebuyer/:email',deleteBuyers);
 router.delete('/deleteSeller/:email',deleteSeller);
 router.get('/getallsellers',getAllSeller);
 router.get('/getallbuyers',getAllBuyers);
+router.post('/addadminpost',addPostsByAdmin);
+router.get('/getadminpost',getPostsByAdmin);
 
 
 

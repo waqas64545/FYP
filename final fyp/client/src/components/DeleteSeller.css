@@ -157,3 +157,12 @@ table.table .avatar {
     margin-top: 10px;
     font-size: 13px;
 }
+.add_Admin_post_form{
+    display: inline-block;
+    border-style: solid;
+    width: 500px;
+    padding-bottom: 20px;
+    box-shadow: 5px 5px 3px silver;
+    padding-top: 20px;
+    border-radius: 5px;
+}
