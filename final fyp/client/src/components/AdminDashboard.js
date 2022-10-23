@@ -32,25 +32,29 @@ const AdminDashboard = () => {
                     setsellersCount(response.data.message.sellersCount);
                     setbuyersCount(response.data.message.buyersCount);
                     setpostsCount(response.data.message.postsCount);
+                    updateChartData(response.data.message.sellersCount,response.data.message.buyersCount,response.data.message.postsCount );
                 })
 
-            data = [
-                { name: "Sellers", users: sellersCount, fill: '  #FFDA83' },
-                { name: "Buyers", users: buyersCount, fill: "#FF6565" },
-                { name: "Posts", users: postsCount, fill: "#57c0e8" },
-
-            ];
-            setRecord(data);
+           
         }
         catch (err) {
             console.log('Error : ', err);
         }
     }
+    const updateChartData=(sellercount,buyercount,postcount)=>{
+        data = [
+            { name: "Sellers", users: sellercount, fill: '#FFDA83' },
+            { name: "Buyers", users: buyercount, fill: "#FF6565" },
+            { name: "Posts", users: postcount, fill: "#57c0e8" },
+
+        ];
+        setRecord(data);
+    }
 
     useEffect(() => {
-        // getData();
+        
         getCounts();
-    }, [record]);
+    }, []);
 
     return (
         <>
