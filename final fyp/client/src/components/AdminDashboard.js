@@ -24,8 +24,8 @@ const AdminDashboard = () => {
 
     var data = [];
     const getCounts = async () => {
-
-        console.log("Record : ", record)
+        //     console.log("ABC")
+        // console.log("Record : ", record)
         try {
             getCountsData()
                 .then(response => {
@@ -50,7 +50,7 @@ const AdminDashboard = () => {
     useEffect(() => {
         // getData();
         getCounts();
-    }, []);
+    }, [record]);
 
     return (
         <>
