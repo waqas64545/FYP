@@ -7,11 +7,13 @@
     font-family: 'Poppins', sans-serif;
 }
  
-/* .row{
+.row{
     padding-left: 30px;
-} */
+}
 .col-2{
     align-items: center;
+    color: #000;
+    
 }
 
 .row .col-2 h1{
@@ -32,18 +34,18 @@
 }
 p{
     color: #555;
-} */
+} 
 
 
 
 
-  .container
+.container
 {
     max-width: 1900px;
     margin: auto;
     padding-left: 25px;
     padding-right: 25px;
-}  
+}   
 .row{
     display: flex;
     align-items: center;
@@ -95,6 +97,10 @@ background: #563434;
     flex-basis: 30px;
     min-width: 250px;
     margin-bottom: 30px;
+}
+.col-3 h2{
+   font-size: large;
+   color: #000;
 }
 .col-3 img{
     width: 100%;

@@ -3,6 +3,7 @@ import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import Home2 from './Home2';
+ import './Home.css';
 import './App.css';
 import { getPostByAdmin } from '../api/auth';
 // import { dataDigitalBestSeller } from './data';
@@ -85,6 +86,14 @@ function App() {
   }, []);
 
   return (
+    <div>
+      
+      <div className='row'   align="center">
+		   <div>
+			<div align="center" bgcolor="black" > <marquee scrollamount="10" onmouseover="stop()" onmouseout="start()"><h3>Latest news about PC</h3>  </marquee> </div>
+		</div>
+	</div>
+      
     <div className="App">
       {isData === true && <>
         <Slider {...settings}>
@@ -108,7 +117,7 @@ function App() {
       <br></br>
       <div><Home2 /></div>
     </div>
-
+    </div>
 
   );
 }

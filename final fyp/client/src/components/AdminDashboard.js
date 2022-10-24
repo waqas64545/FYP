@@ -2,7 +2,6 @@ import React from "react";
 import { useEffect, useState, Component } from 'react';
 import Sidebar from './Sidebar';
 import { getCountsData } from '../api/auth';
-
 import {
     PieChart,
     Pie,
@@ -66,7 +65,7 @@ const AdminDashboard = () => {
                 <div>
 
 
-                    <div className="row">
+                    <div className="row1">
                         <div className="col main pt-5 mt-3">
 
                             <nav aria-label="breadcrumb">

@@ -324,8 +324,6 @@ height: 50px;
     justify-content: center;
     margin-left: 280px;
     margin-top: 50px;
-  
-    
 }
 
 
@@ -359,11 +357,11 @@ height: 50px;
 
   padding-bottom: 3rem;
 }
-.row{
-    padding-left: 7pc;
+.row1{
+    padding-left: 11pc;
 }
 .breadcrumb{
-    padding-left: 7pc;
+    padding-left: 2pc;
 }
 .back{
     background-color: #bedfb7;

@@ -372,6 +372,7 @@ const SellerDashboard = () => {
               </ul>
             </div>
           </div>
+          
           <div className="col-lg-8">
             <div className="card mb-3 myprofilecard">
               <div className="card-body">

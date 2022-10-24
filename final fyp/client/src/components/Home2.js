@@ -1,6 +1,6 @@
 import React from "react";
 import './Home.css';
-import './App.css';
+// import './App.css';
 import Picture1 from '../assests/images1/Picture1.png';
 import cart from '../assests/images/cart.png';
 import menu from '../assests/images/menu.png';
@@ -70,10 +70,11 @@ class  Home2 extends React.Component {
             </div>
             <div className="row">
               <div className="col-2">
-                <h1>PC builder</h1>
-                <h2>
-                  Explore the world of gaming <br />
-                </h2>
+                <h1><i><b>PC builder</b></i></h1>
+                <p><i>
+                  <b>Explore the world of gaming</b>
+                  </i>
+                </p>
                 <p>Custom building - Buy/sell</p>
 
                 <a href="/signup" className="btn">
@@ -168,11 +169,11 @@ class  Home2 extends React.Component {
                 <img src={custom} alt="offer-img" />
               </div>
               <div className="col-2">
-                <h1>Custom Building</h1>
-                <h3>
+                <h3><b>Custom Building</b></h3>
+                <p>
                   You can custom build the pc according to your preferences{" "}
-                  <br />
-                </h3>
+                 
+                </p>
                 <a href="" className="btn">
                   Let's build &#8594;
                 </a>
