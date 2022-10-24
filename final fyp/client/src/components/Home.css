@@ -27,11 +27,11 @@
 }
 
 
- a{
+ /* a{
     font-size: large;
     text-decoration: none;
     color: #555;
-}
+} */
 p{
     color: #555;
 } 
@@ -43,10 +43,10 @@ p{
 {
     max-width: 1900px;
     margin: auto;
-    padding-left: 25px;
-    padding-right: 25px;
-}   
-.row{
+    padding-left: 25;
+    padding-right: 25;
+}    
+.row2{
     display: flex;
     align-items: center;
     flex-wrap: wrap;
@@ -67,12 +67,12 @@ p{
     line-height: 60px;
     margin: 25px 0;
 }
-.btn{
+.btn2{
     display: inline-block;
     background: #ff523b;
     color: #fff;
-    /* padding: 8px 30px;
-    margin: 10px 0; */
+    padding: 8px 30px;
+    margin: 10px 0;
     border-radius: 30px;
     transition: transform 0.5s;
 

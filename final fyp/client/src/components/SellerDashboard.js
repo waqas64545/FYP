@@ -513,7 +513,8 @@ const SellerDashboard = () => {
 
         </div>
         {isData === true && <>
-        <h3 className='text-center my-2'>Products</h3>
+        
+        <div className='bor' align="center" bgcolor="black" > <marquee scrollamount="10" onmouseover="stop()" onmouseout="start()"><h3>UPLOADED PRODUCTS HERE</h3>  </marquee> </div>
 
         <div className="container bg-trasparent my-4 p-3">
           <div className="row row-cols-1 row-cols-xs-2 row-cols-sm-2 row-cols-lg-4 g-3">
@@ -561,8 +562,8 @@ const SellerDashboard = () => {
 
         </div>
       </>}
-      {isData === false && <><h3 className='text-center'>No products available</h3></>}
-
+      {isData === false && <><div className='bor' align="center" bgcolor="black" > <marquee scrollamount="10" onmouseover="stop()" onmouseout="start()"><h3>PRODUCTS NOT AVAILABLE</h3>  </marquee> </div></>}
+<br></br>
       </div>
            
 

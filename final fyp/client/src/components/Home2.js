@@ -68,7 +68,7 @@ class  Home2 extends React.Component {
                 onclick="menutoggle()"
               />
             </div>
-            <div className="row">
+            <div className="row2">
               <div className="col-2">
                 <h1><i><b>PC builder</b></i></h1>
                 <p><i>
@@ -77,7 +77,7 @@ class  Home2 extends React.Component {
                 </p>
                 <p>Custom building - Buy/sell</p>
 
-                <a href="/signup" className="btn">
+                <a href="/signup" className="btn2">
                   Explore now &#8594;
                 </a>
               </div>
@@ -93,7 +93,7 @@ class  Home2 extends React.Component {
 
         <div className="categories">
           <div className="small-container">
-            <div className="row">
+            <div className="row2">
               <div className="col-3">
                 <img src={prebuilts} width="600px" alt="" />
                 <h2>Pre-Builts</h2>
@@ -115,7 +115,7 @@ class  Home2 extends React.Component {
 
         <div className="small-container">
           <h2 className="title">Featured products</h2>
-          <div className="row">
+          <div className="row2">
             <div className="col-4">
               <img src={ti} alt="" />
               <h3>GTX 1070ti</h3>
@@ -138,7 +138,7 @@ class  Home2 extends React.Component {
             </div>
           </div>
           <h2 className="title">Latest product</h2>
-          <div className="row">
+          <div className="row2">
             <div className="col-4">
               <img src={tii} alt="" />
               <h3>GTX 1070ti</h3>
@@ -164,7 +164,7 @@ class  Home2 extends React.Component {
 
         <div className="offer">
           <div className="small-container">
-            <div className="row">
+            <div className="row2">
               <div className="col-2">
                 <img src={custom} alt="offer-img" />
               </div>
@@ -174,7 +174,7 @@ class  Home2 extends React.Component {
                   You can custom build the pc according to your preferences{" "}
                  
                 </p>
-                <a href="" className="btn">
+                <a href="" className="btn2">
                   Let's build &#8594;
                 </a>
               </div>
@@ -185,7 +185,7 @@ class  Home2 extends React.Component {
         <div className="testimonial">
           <div className="small-container">
             <h2 className="title">News section</h2>
-            <div className="row">
+            <div className="row2">
               <div className="col-3">
                 <h2>
                   Nvidia just launched the new graphic card check it out in this
@@ -213,7 +213,7 @@ class  Home2 extends React.Component {
 
         <div className="brands">
           <div className="small-container">
-            <div className="row">
+            <div className="row2">
               <div className="col-5">
                 <img src={Intel} alt="" />
               </div>
@@ -235,7 +235,7 @@ class  Home2 extends React.Component {
 
         <div className="footer">
           <div className="container">
-            <div className="row">
+            <div className="row2">
               <div className="footer-col-1">
                 <h3>Download our app</h3>
                 <p>download for mac and win</p>

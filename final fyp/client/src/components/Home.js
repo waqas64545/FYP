@@ -90,7 +90,7 @@ function App() {
       
       <div className='row'   align="center">
 		   <div>
-			<div align="center" bgcolor="black" > <marquee scrollamount="10" onmouseover="stop()" onmouseout="start()"><h3>Latest news about PC</h3>  </marquee> </div>
+			<div align="center" bgcolor="black" > <marquee scrollamount="10" onmouseover="stop()" onmouseout="start()"><h3>PC BUIDER PROVIDES COMPATIBILITY ,BENCHMARKING ,BOTTLENECKING AND SELLING BUYING PLATFORM</h3>  </marquee> </div>
 		</div>
 	</div>
       
